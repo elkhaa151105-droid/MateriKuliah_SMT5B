@@ -35,12 +35,13 @@ Mahasiswa Mampu:
         - install (npx expo install react-dom react-native-web)
         - npx expo start --web
         konfirmasi keberhasilan
-        ![alt text](image-3.png)
+        <img src="image-3.png" alt="Gambar 3" width="400">
 
 3. Membuat CV Sederhana dengan React Native
-    - Nama
-    - NIM
-    - Asal Sekolah
-    - Cita-cita
-    - Rencana Menggapai cita-cita
+   - Nama
+   - NIM
+   - Asal Sekolah
+   - Cita-cita
+   - Rencana Menggapai cita-cita
 
+        <img src="image-4.png" alt="Gambar 4" width="400">
