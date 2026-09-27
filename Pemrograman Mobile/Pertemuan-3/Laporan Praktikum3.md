@@ -130,6 +130,7 @@ Tambahkan kode berikut di **bawah** fungsi `App()` (paling bawah file):
 ## Tugas Pengembangan ##
 
 4. Tambah komponen KeyboardAvoidingView agar form tidak tertutup keyboard
+![alt text](image-14.png)
 5. Buat tab navigasi sederhana (Info / Skills / Kontak) menggunakan TouchableOpacity
 6. Tambah animasi pada profile avatar menggunakan Animated API
 
