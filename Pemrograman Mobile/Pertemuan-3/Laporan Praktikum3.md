@@ -136,4 +136,4 @@ Tambahkan kode berikut di **bawah** fungsi `App()` (paling bawah file):
 
 Video tangkapan layar Tugas Pengembangan
 
-![alt text](cv-gift.gif)
+<img src="cv-gift.gif" width="50%">
