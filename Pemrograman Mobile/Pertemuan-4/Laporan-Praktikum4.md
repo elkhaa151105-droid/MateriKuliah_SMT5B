@@ -33,6 +33,6 @@ Mahasiswa Mampu:
 3. membuat halaman profile
 4. konfigurasikan di app.js
 
-![alt text](botom.gif)
+<img src="botom.gif" width="15%">
 
-![alt text](20261005-0353-18.0331383.gif)
+<img src="20261005-0353-18.0331383.gif" width="15%">
