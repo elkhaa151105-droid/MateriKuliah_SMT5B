@@ -33,7 +33,6 @@ Mahasiswa Mampu:
 3. membuat halaman profile
 4. konfigurasikan di app.js
 
-<video controls src="botom.mp4" title="Bottom"></video>
+![alt text](botom.gif)
 
 ![alt text](20261005-0353-18.0331383.gif)
-<video controls src="botom.mp4" title="Title"></video>
