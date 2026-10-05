@@ -1,8 +1,8 @@
-
+import 'react-native-gesture-handler'; // harus paling atas
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 
 import Login from './screens/Login';
 import Signup from './screens/Signup';
@@ -10,27 +10,31 @@ import HomeScreen from './screens/HomeScreen';
 import ProfileScreen from './screens/ProfileScreen';
 
 const Stack = createNativeStackNavigator();
-const Tab = createBottomTabNavigator();
+const Drawer = createDrawerNavigator();
 
-function MainTabs() {
+function MainDrawer() {
   return (
-    <Tab.Navigator
+    <Drawer.Navigator
+      initialRouteName="Beranda"
       screenOptions={{
-        tabBarActiveTintColor: '#0284c7',
+        headerStyle: { backgroundColor: '#0284c7' },
+        headerTintColor: '#fff',
         headerTitleAlign: 'center',
+        drawerActiveTintColor: '#0284c7',
+        drawerLabelStyle: { fontSize: 16 },
       }}
     >
-      <Tab.Screen
-        name="Home"
+      <Drawer.Screen
+        name="Beranda"
         component={HomeScreen}
-        options={{ title: 'Beranda', tabBarLabel: 'Beranda' }}
+        options={{ title: 'Beranda', drawerLabel: '🏠 Beranda' }}
       />
-      <Tab.Screen
-        name="Profile"
+      <Drawer.Screen
+        name="Profil"
         component={ProfileScreen}
-        options={{ title: 'Profil', tabBarLabel: 'Profil' }}
+        options={{ title: 'Profil', drawerLabel: '👤 Profil' }}
       />
-    </Tab.Navigator>
+    </Drawer.Navigator>
   );
 }
 
@@ -50,7 +54,7 @@ export default function App() {
         />
         <Stack.Screen
           name="MainTabs"
-          component={MainTabs}
+          component={MainDrawer}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>

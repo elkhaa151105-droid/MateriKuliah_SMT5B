@@ -34,3 +34,5 @@ Mahasiswa Mampu:
 4. konfigurasikan di app.js
 
 <video controls src="20261003-0718-02.6047617.mp4" title="Implementasi bottom navigator" width="15%"></video>
+
+![alt text](20261005-0353-18.0331383.gif)
